@@ -109,4 +109,8 @@
     font-family: 'Hind Madurai', sans-serif;
   }
 
+  #services .icon {
+    cursor: pointer;
+  }
+
  
