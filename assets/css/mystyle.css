@@ -113,4 +113,40 @@
     cursor: pointer;
   }
 
+  @media (max-width: 400px) {
+    #team .member .pic img {
+      max-width: 75%;
+    }
+  }
+
+  @media (max-width: 1030px) {
+    .nav-menu a {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 800px){
+    #hero {
+      width: 100%;
+      height: 100vh;
+      background: url(HeroVert.png) center;
+      background-size: 100% 100%;
+      position: relative;
+    }
+    #hero:before {
+      width: 100%;
+      height: 100vh;
+      background: url(HeroVert.png) center;
+      background-size: 100% 100%;
+      position: relative;
+    }
+    #contact .section-description {
+      color: #ffffff;
+    }
+    #contact .info p {
+      color: #ffffff;
+    }
+  }
+
+
  
